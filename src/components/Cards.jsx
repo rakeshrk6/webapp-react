@@ -11,11 +11,7 @@ function Cards() {
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
                     <CardItem 
-<<<<<<< HEAD
-                    src="public\images\img-9.jpg"
-=======
                     src="public/images/img-9.jpg"
->>>>>>> 647ca20b24cea761d1a3a086a1d3e620ab908e73
                     text="Explore the hidden waterfall deep inside the Amazon Jungle"
                     label="Adventure"
                     path="/services"
