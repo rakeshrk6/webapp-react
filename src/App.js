@@ -10,10 +10,10 @@ import Services from "./components/pages/Services";
 function App() {
   return (
     <>
-      <Router basename="/webapp-react">
+      <Router>
         <Navbar />
         <Routes>
-          <Route path="/webapp-react" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />}/>
           <Route path="/products" element={<Products />}/>
           <Route path="/sign-up" element={<SignUp />}/>
